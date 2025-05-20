@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FF Headshot Sensitivity Generate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>FF Headshot Sensitivity Generator</h2>
+
+    <label for="dpi">Enter DPI:</label>
+    <input type="number" id="dpi" placeholder="e.g. 426">
+
+    <label for="width">Resolution Width:</label>
+    <input type="number" id="width" placeholder="e.g. 1612">
+
+    <label for="height">Resolution Height:</label>
+    <input type="number" id="height" placeholder="e.g. 720">
+
+    <button onclick="calculateSensitivity()">Calculate Sensitivity</button>
+
+    <div class="result" id="result">Result will appear here.</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
